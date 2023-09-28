@@ -27,20 +27,24 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <button type="button" class="btn btn-success justify-content-right">Create New Post</button>
+                        <!-- Button Modal -->
+                        <button type="button" class="btn btn-success justify-content-right" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">Create New Post</button>
+
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown dropdown-item-end">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            Dropdown
+                            Rueda
                         </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#">Profile</a></li>
+                            <li><a class="dropdown-item" href="#">Accesibility</a></li>
+                            <li><a class="dropdown-item" href="#">Privacy and Data</a></li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <li><a class="dropdown-item" href="#">Log Out</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -49,85 +53,156 @@
     </nav>
     </br>
     </br>
+    </br>
+    </br>
+    <div class="buttons">
+        <a class="btn btn-primary" href="./index2.html" role="button"><i class="fa-solid fa-grip-vertical"></i></a>
+        <a class="btn btn-primary" href="./index.html" role="button"><i class="fa-solid fa-grip-lines-vertical"></i></a>
+    </div>
+
     <div class="container-fluid">
         <div class="container">
-            <div class="post">
-                <div class="post-header">
-                    <div>
-                        <h2>First Photo</h2>
+
+            <div class="card mb-3 mt-5">
+                <div class="card-body">
+                    <div class="card-title">
+                        <div>
+                            <h2>First Photo</h2>
+                        </div>
+                        <div>
+                            <span>12/14</span>
+                        </div>
                     </div>
-                    <div>
-                        <span>12/14</span>
-                    </div>
-                </div>
-                <div>
-                    <img src="https://picsum.photos/640/360"></img>
-                </div>
-                <div><b>250 Likes</b></div>
-                <div>
-                    <p>This is my first photo of the feed. this is a multi line comment for testing purposes. I am
-                        learning to code with <strong>#BreatheCode</strong></p>
+                    <img src="https://picsum.photos/640/360" class="card-img-top" alt="...">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                 </div>
             </div>
-            <div class="post">
-                <div class="post-header">
-                    <div>
-                        <h2>WoooooooooooW</h2>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <div class="card-title">
+                        <div>
+                            <h2>First Photo</h2>
+                        </div>
+                        <div>
+                            <span>12/14</span>
+                        </div>
                     </div>
-                    <div>
-                        <span>10/14</span>
-                    </div>
-                </div>
-                <div>
-                    <img src="https://picsum.photos/640/360"></img>
-                </div>
-                <div><b>250 Likes</b></div>
-                <div>
-                    <p>This is my first photo of the feed. this is a multi line comment for testing purposes. I am
-                        learning to code with <strong>#BreatheCode</strong></p>
+                    <img src="https://picsum.photos/640/360" class="card-img-top" alt="...">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                 </div>
             </div>
-            <div class="post">
-                <div class="post-header">
-                    <div>
-                        <h2>yeeeeeeeeeeeeeey</h2>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <div class="card-title">
+                        <div>
+                            <h2>First Photo</h2>
+                        </div>
+                        <div>
+                            <span>12/14</span>
+                        </div>
                     </div>
-                    <div>
-                        <span>08/16</span>
-                    </div>
-                </div>
-                <div>
-                    <img src="https://picsum.photos/640/360"></img>
-                </div>
-                <div><b>250 Likes</b></div>
-                <div>
-                    <p>This is my first photo of the feed. this is a multi line comment for testing purposes. I am
-                        learning to code with <strong>#BreatheCode</strong></p>
+                    <img src="https://picsum.photos/640/360" class="card-img-top" alt="...">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                 </div>
             </div>
-            <div class="post">
-                <div class="post-header">
-                    <div>
-                        <h2>Woooolooolooo</h2>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <div class="card-title">
+                        <div>
+                            <h2>First Photo</h2>
+                        </div>
+                        <div>
+                            <span>12/14</span>
+                        </div>
                     </div>
-                    <div>
-                        <span>05/20</span>
+                    <img src="https://picsum.photos/640/360" class="card-img-top" alt="...">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <div class="card-title">
+                        <div>
+                            <h2>First Photo</h2>
+                        </div>
+                        <div>
+                            <span>12/14</span>
+                        </div>
                     </div>
+                    <img src="https://picsum.photos/640/360" class="card-img-top" alt="...">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                 </div>
-                <div>
-                    <img src="https://picsum.photos/640/360"></img>
+            </div>
+            <div class="card mb-3">
+                <div class="card-body">
+                    <div class="card-title">
+                        <div>
+                            <h2>First Photo</h2>
+                        </div>
+                        <div>
+                            <span>12/14</span>
+                        </div>
+                    </div>
+                    <img src="https://picsum.photos/640/360" class="card-img-top" alt="...">
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                        additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
                 </div>
-                <div><b>250 Likes</b></div>
-                <div>
-                    <p>This is my first photo of the feed. this is a multi line comment for testing purposes. I am
-                        learning to code with <strong>#BreatheCode</strong></p>
+            </div>
+            ----------------
+        </div>
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Create New Post</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="mb-3">
+                                <label for="recipient-name" class="col-form-label">Caption</label>
+                            </div>
+                            <div class="mb-3">
+                                <textarea class="form-control" id="message-text"
+                                    placeholder="Add the Caption of your Post here"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">
+                            <i class="fa-solid fa-camera"></i>
+                        </div>
+                        <div class="col-1 ">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Publish</button>
+                    </div>
                 </div>
             </div>
         </div>
+        <!-- End Modal -->
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
             crossorigin="anonymous"></script>
 </body>
+<footer>
+    <div><i class="fa-brands fa-phoenix-squadron"></i></div>
+</footer>
 
 </html>
