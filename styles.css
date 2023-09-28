@@ -19,7 +19,13 @@ header h1{
 }*/
 .row .col-1{
     border: solid whitesmoke;
-    align-items: end;
+    width: 15%;
+}
+.col-1{
+    margin-left: 13px;
+}
+.col-1 i{
+    margin-right: 7px;
 }
 
 
