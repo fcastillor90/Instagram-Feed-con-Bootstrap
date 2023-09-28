@@ -66,6 +66,6 @@ header h1{
     text-align: center;
 }
 footer{
-    justify-content: center;
-    display: 0.1flex;
+    justify-content: flex-end;
+    display: flex;
 }
